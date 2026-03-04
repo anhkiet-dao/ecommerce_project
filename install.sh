@@ -15,7 +15,7 @@ echo "======================================"
 
 # 1. Check root
 if [ "$EUID" -ne 0 ]; then
-    echo "❌ Please run with sudo"
+    echo "Please run with sudo"
     exit 1
 fi
 
@@ -83,7 +83,7 @@ echo "   or"
 echo "   http://$IP/opencart"
 echo ""
 echo "Database Info:"
-echo "   DB Name: $DB_NAME"
-echo "   DB User: $DB_USER"
-echo "   DB Pass: $DB_PASS"
+echo "   Database Name: $DB_NAME"
+echo "   Database Username: $DB_USER"
+echo "   Database Pass: $DB_PASS"
 echo ""
