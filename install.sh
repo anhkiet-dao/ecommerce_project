@@ -44,8 +44,8 @@ mysql -e "FLUSH PRIVILEGES;"
 # 6. Download OpenCart
 echo "[5/7] Downloading OpenCart..."
 cd /tmp
-wget -q https://github.com/opencart/opencart/releases/download/4.0.2.3/opencart-4.0.2.3.zip
-unzip -oq opencart-4.0.2.3.zip
+wget -q https://github.com/opencart/opencart/releases/download/3.0.3.9/opencart-3.0.3.9.zip
+unzip -oq opencart-3.0.3.9.zip
 
 # 7. Deploy files
 echo "[6/7] Deploying files..."
