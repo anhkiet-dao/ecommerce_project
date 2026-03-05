@@ -1,14 +1,6 @@
-# ===============================
-# CONFIGURATION FILE
-# ===============================
+#!/bin/bash
 
-WEB_PARENT="/var/www/html"
 WEB_ROOT="/var/www/html/opencart"
-
-DB_NAME="opencart"
-DB_USER="opencartuser"
-DB_PASS="123456"
-
-BACKUP_DIR="$HOME/backups"
-LOG_DIR="$(pwd)/logs"
-LOG_FILE="$LOG_DIR/system.log"
+BACKUP_DIR="/backup"
+LOG_FILE="/backup/backup.log"
+LAST_BACKUP_FILE="/backup/.last_backup_time"
